@@ -14,7 +14,7 @@ class ExampleController < Sinatra::Base
     serve 'home/img', from: 'lib/img'
 
     js :example_package, 'js/example_package.js',
-       ['js/example.js', 'js/initializer.js']
+       ['js/vendor/jquery.js', 'js/example.js', 'js/initializer.js']
     css :example_package, 'css/example_package.css', ['css/example.css']
   }
 
