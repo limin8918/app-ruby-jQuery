@@ -1,6 +1,6 @@
-# Single Page
+# Single Page App
 
-## Overview
+## Tech Stacks
 > Server: Rack
 
 > Language: Ruby + jQuery
