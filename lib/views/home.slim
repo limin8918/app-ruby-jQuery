@@ -2,6 +2,10 @@ doctype html
 html
   head
     title Home
+    == css :example_package, :media => 'screen'
+    == js :example_package
 
   body
-    h1 Home page
+    #home
+      == partial :'title'
+      == partial :'item', :locals => { :id => @id, :name => @name}
