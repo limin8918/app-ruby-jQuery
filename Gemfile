@@ -1,6 +1,7 @@
 source 'https://rubygems.org/'
 source 'https://ruby.taobao.org/'
 
+gem 'rake'
 gem 'sinatra', :require => 'sinatra/base'
 gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
 gem 'sinatra-partial', :require => 'sinatra/partial'

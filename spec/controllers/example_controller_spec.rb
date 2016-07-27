@@ -7,7 +7,7 @@ describe ExampleController do
 
   context 'Home' do
     it 'is success' do
-      get '/home'
+      get '/home/10001-book'
       expect(last_response).to be_ok
     end
   end
